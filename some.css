@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fff 50%, #add8e6 50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscription {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    text-align: center;
+    width: 45%;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.plan:hover {
+    transform: translateY(-10px); /* Move the box up on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+#basic.plan {
+    background-color: #08787F;
+}
+
+#standard.plan {
+    background-color: #BDBDC6; 
+}
+
+.plan h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 18px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.plan ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.plan ul li:last-child {
+    border-bottom: none;
+}
