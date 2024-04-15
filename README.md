@@ -1,2 +1,2 @@
 # Calc
-This repository consist of my all frontend codes
+This repository consist of my all frontend codes.
